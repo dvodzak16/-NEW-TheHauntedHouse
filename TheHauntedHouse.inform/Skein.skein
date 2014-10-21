@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x7028350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x39d410" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4d0a60" />
-  <item nodeId="node-0x7028350">
+  <activeNode nodeId="node-0x39d410" />
+  <item nodeId="node-0x39d410">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,14 +21,14 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>NO</changed>
     <temporary score="22">NO</temporary>
     <children>
-      <child nodeId="node-0x70df260" />
-      <child nodeId="node-0x70283c0" />
-      <child nodeId="node-0x7007130" />
-      <child nodeId="node-0x445810" />
-      <child nodeId="node-0x27e670" />
+      <child nodeId="node-0x3e53a0" />
+      <child nodeId="node-0x3e3e60" />
+      <child nodeId="node-0x3e3a00" />
+      <child nodeId="node-0x39d6d0" />
+      <child nodeId="node-0x39d480" />
     </children>
   </item>
-  <item nodeId="node-0x27e670">
+  <item nodeId="node-0x39d480">
     <command xml:space="preserve">x horse</command>
     <result xml:space="preserve">Upon further inspection, the white horse is fake, how dissapointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?
 
@@ -37,10 +37,10 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1062dfd0" />
+      <child nodeId="node-0x39d4d0" />
     </children>
   </item>
-  <item nodeId="node-0x1062dfd0">
+  <item nodeId="node-0x39d4d0">
     <command xml:space="preserve">x gnome</command>
     <result xml:space="preserve">A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side, but the turf isn&apos;t that deep...
 
@@ -49,10 +49,10 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x70e95b0" />
+      <child nodeId="node-0x39d680" />
     </children>
   </item>
-  <item nodeId="node-0x70e95b0">
+  <item nodeId="node-0x39d680">
     <command xml:space="preserve">look under gnome</command>
     <result xml:space="preserve">Yuck! What is this doing here? Perhaps you may need it...plus it looks cool...You pocket the frog leg.
 
@@ -61,7 +61,7 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x445810">
+  <item nodeId="node-0x39d6d0">
     <command xml:space="preserve">x hedges</command>
     <result xml:space="preserve">Thick, healthy hedges that are an unusual height. You can&apos;t get around or over them.
 
@@ -70,10 +70,10 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x4f80e0" />
+      <child nodeId="node-0x3e3920" />
     </children>
   </item>
-  <item nodeId="node-0x4f80e0">
+  <item nodeId="node-0x3e3920">
     <command xml:space="preserve">x walkway</command>
     <result xml:space="preserve">A crooked, cracked hallway, that leads right up to the house.
 
@@ -82,10 +82,10 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x1156ee40" />
+      <child nodeId="node-0x3e3970" />
     </children>
   </item>
-  <item nodeId="node-0x1156ee40">
+  <item nodeId="node-0x3e3970">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Iron Gate)
 It seems to be locked.
@@ -95,10 +95,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x219dd0" />
+      <child nodeId="node-0x3e3a60" />
     </children>
   </item>
-  <item nodeId="node-0x219dd0">
+  <item nodeId="node-0x3e3a60">
     <command xml:space="preserve">unlock gate</command>
     <result xml:space="preserve">What do you want to unlock the Iron Gate with?
 
@@ -107,10 +107,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x2b7f40" />
+      <child nodeId="node-0x3e3ab0" />
     </children>
   </item>
-  <item nodeId="node-0x2b7f40">
+  <item nodeId="node-0x3e3ab0">
     <command xml:space="preserve">x frog leg</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -119,10 +119,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x2df870" />
+      <child nodeId="node-0x3e3b00" />
     </children>
   </item>
-  <item nodeId="node-0x2df870">
+  <item nodeId="node-0x3e3b00">
     <command xml:space="preserve">look under gnome</command>
     <result xml:space="preserve">Yuck, theres a frog leg here! What is this doing here? Well, perhaps you may need it...plus it looks cool...You pocket the frog leg.
 
@@ -131,10 +131,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x1061fbd0" />
+      <child nodeId="node-0x3e3b70" />
     </children>
   </item>
-  <item nodeId="node-0x1061fbd0">
+  <item nodeId="node-0x3e3b70">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Frog Leg
@@ -144,10 +144,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x4a5930" />
+      <child nodeId="node-0x3e3be0" />
     </children>
   </item>
-  <item nodeId="node-0x4a5930">
+  <item nodeId="node-0x3e3be0">
     <command xml:space="preserve">x Frog leg</command>
     <result xml:space="preserve">A dried frog leg that has strange patterns on it. It has a magical touch to it.
 
@@ -156,10 +156,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x4d3680" />
+      <child nodeId="node-0x3e3d10" />
     </children>
   </item>
-  <item nodeId="node-0x4d3680">
+  <item nodeId="node-0x3e3d10">
     <command xml:space="preserve">eat frog leg</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -168,7 +168,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
   </item>
-  <item nodeId="node-0x7007130">
+  <item nodeId="node-0x3e3a00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Iron Gate)
 It seems to be locked.
@@ -178,11 +178,11 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x11095280" />
-      <child nodeId="node-0xf0253a0" />
+      <child nodeId="node-0x3e3df0" />
+      <child nodeId="node-0x3e3d80" />
     </children>
   </item>
-  <item nodeId="node-0xf0253a0">
+  <item nodeId="node-0x3e3d80">
     <command xml:space="preserve">x gate</command>
     <result xml:space="preserve">An iron gate that seems to be locked. The only way around it and to your parents, is by finding the key.
 
@@ -191,7 +191,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x11095280">
+  <item nodeId="node-0x3e3df0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -200,7 +200,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x70283c0">
+  <item nodeId="node-0x3e3e60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Main Room
@@ -210,10 +210,10 @@ Main Room
     <changed>NO</changed>
     <temporary score="16">YES</temporary>
     <children>
-      <child nodeId="node-0x7028410" />
+      <child nodeId="node-0x3e3ed0" />
     </children>
   </item>
-  <item nodeId="node-0x7028410">
+  <item nodeId="node-0x3e3ed0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Long Hallway
@@ -224,16 +224,16 @@ You can see a boy here.
     <changed>NO</changed>
     <temporary score="16">YES</temporary>
     <children>
-      <child nodeId="node-0x70539f0" />
-      <child nodeId="node-0x7053910" />
-      <child nodeId="node-0x70538a0" />
-      <child nodeId="node-0x7052c20" />
-      <child nodeId="node-0x70524b0" />
-      <child nodeId="node-0x7052410" />
-      <child nodeId="node-0x70523c0" />
+      <child nodeId="node-0x3e5330" />
+      <child nodeId="node-0x3e5250" />
+      <child nodeId="node-0x3e51e0" />
+      <child nodeId="node-0x3e4ed0" />
+      <child nodeId="node-0x3e3ca0" />
+      <child nodeId="node-0x3e3fb0" />
+      <child nodeId="node-0x3e3f40" />
     </children>
   </item>
-  <item nodeId="node-0x70523c0">
+  <item nodeId="node-0x3e3f40">
     <command xml:space="preserve">x Chuckles</command>
     <result xml:space="preserve">A boy not much older than you. He appears to be dressed up as Batman, and is shivering against the wall. He looks rather terrfied...but maybe he&apos;ll know how to get out?
 
@@ -242,7 +242,7 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x7052410">
+  <item nodeId="node-0x3e3fb0">
     <command xml:space="preserve">open doo</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -251,16 +251,16 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="45">YES</temporary>
     <children>
-      <child nodeId="node-0x7052460" />
+      <child nodeId="node-0x3e3c50" />
     </children>
   </item>
-  <item nodeId="node-0x7052460">
+  <item nodeId="node-0x3e3c50">
     <command xml:space="preserve">open the crooked stairs</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
   </item>
-  <item nodeId="node-0x70524b0">
+  <item nodeId="node-0x3e3ca0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -269,12 +269,12 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x7052fd0" />
-      <child nodeId="node-0x7052ef0" />
-      <child nodeId="node-0x7052580" />
+      <child nodeId="node-0x3e4c30" />
+      <child nodeId="node-0x3e4b50" />
+      <child nodeId="node-0x3e41a0" />
     </children>
   </item>
-  <item nodeId="node-0x7052580">
+  <item nodeId="node-0x3e41a0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -283,10 +283,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x70525d0" />
+      <child nodeId="node-0x3e4210" />
     </children>
   </item>
-  <item nodeId="node-0x70525d0">
+  <item nodeId="node-0x3e4210">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">What do you want to open?
 
@@ -295,10 +295,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052620" />
+      <child nodeId="node-0x3e4280" />
     </children>
   </item>
-  <item nodeId="node-0x7052620">
+  <item nodeId="node-0x3e4280">
     <command xml:space="preserve">open the crooked stairs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -307,10 +307,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052690" />
+      <child nodeId="node-0x3e42f0" />
     </children>
   </item>
-  <item nodeId="node-0x7052690">
+  <item nodeId="node-0x3e42f0">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -319,10 +319,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052700" />
+      <child nodeId="node-0x3e4360" />
     </children>
   </item>
-  <item nodeId="node-0x7052700">
+  <item nodeId="node-0x3e4360">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">That was a rhetorical question.
 
@@ -331,10 +331,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052830" />
+      <child nodeId="node-0x3e43d0" />
     </children>
   </item>
-  <item nodeId="node-0x7052830">
+  <item nodeId="node-0x3e43d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -343,10 +343,10 @@ You can see a boy here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052520" />
+      <child nodeId="node-0x3e4440" />
     </children>
   </item>
-  <item nodeId="node-0x7052520">
+  <item nodeId="node-0x3e4440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Spooky Library
@@ -356,10 +356,10 @@ Spooky Library
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x70528a0" />
+      <child nodeId="node-0x3e44b0" />
     </children>
   </item>
-  <item nodeId="node-0x70528a0">
+  <item nodeId="node-0x3e44b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -368,10 +368,10 @@ Spooky Library
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052910" />
+      <child nodeId="node-0x3e4520" />
     </children>
   </item>
-  <item nodeId="node-0x7052910">
+  <item nodeId="node-0x3e4520">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Main Room
@@ -381,10 +381,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052980" />
+      <child nodeId="node-0x3e4590" />
     </children>
   </item>
-  <item nodeId="node-0x7052980">
+  <item nodeId="node-0x3e4590">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Spooky Family Room
@@ -394,10 +394,10 @@ Spooky Family Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x70529f0" />
+      <child nodeId="node-0x3e4600" />
     </children>
   </item>
-  <item nodeId="node-0x70529f0">
+  <item nodeId="node-0x3e4600">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -406,10 +406,10 @@ Spooky Family Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052a60" />
+      <child nodeId="node-0x3e4020" />
     </children>
   </item>
-  <item nodeId="node-0x7052a60">
+  <item nodeId="node-0x3e4020">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -418,10 +418,10 @@ Spooky Family Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052ad0" />
+      <child nodeId="node-0x3e4090" />
     </children>
   </item>
-  <item nodeId="node-0x7052ad0">
+  <item nodeId="node-0x3e4090">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -430,10 +430,10 @@ Spooky Family Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052770" />
+      <child nodeId="node-0x3e4100" />
     </children>
   </item>
-  <item nodeId="node-0x7052770">
+  <item nodeId="node-0x3e4100">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Main Room
@@ -443,10 +443,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x70527c0" />
+      <child nodeId="node-0x3e48b0" />
     </children>
   </item>
-  <item nodeId="node-0x70527c0">
+  <item nodeId="node-0x3e48b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -455,10 +455,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052cc0" />
+      <child nodeId="node-0x3e4920" />
     </children>
   </item>
-  <item nodeId="node-0x7052cc0">
+  <item nodeId="node-0x3e4920">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -467,10 +467,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052d30" />
+      <child nodeId="node-0x3e4990" />
     </children>
   </item>
-  <item nodeId="node-0x7052d30">
+  <item nodeId="node-0x3e4990">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -479,10 +479,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052da0" />
+      <child nodeId="node-0x3e4a00" />
     </children>
   </item>
-  <item nodeId="node-0x7052da0">
+  <item nodeId="node-0x3e4a00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -491,10 +491,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052e10" />
+      <child nodeId="node-0x3e4a70" />
     </children>
   </item>
-  <item nodeId="node-0x7052e10">
+  <item nodeId="node-0x3e4a70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -503,10 +503,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x7052e80" />
+      <child nodeId="node-0x3e4ae0" />
     </children>
   </item>
-  <item nodeId="node-0x7052e80">
+  <item nodeId="node-0x3e4ae0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -515,7 +515,7 @@ Main Room
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x7052ef0">
+  <item nodeId="node-0x3e4b50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -524,10 +524,10 @@ Main Room
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x7052f60" />
+      <child nodeId="node-0x3e4bc0" />
     </children>
   </item>
-  <item nodeId="node-0x7052f60">
+  <item nodeId="node-0x3e4bc0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -536,7 +536,7 @@ Main Room
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
   </item>
-  <item nodeId="node-0x7052fd0">
+  <item nodeId="node-0x3e4c30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Spooky Bedroom
@@ -546,10 +546,10 @@ Spooky Bedroom
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x7053040" />
+      <child nodeId="node-0x3e4ca0" />
     </children>
   </item>
-  <item nodeId="node-0x7053040">
+  <item nodeId="node-0x3e4ca0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -558,10 +558,10 @@ Spooky Bedroom
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x70530b0" />
+      <child nodeId="node-0x3e4d10" />
     </children>
   </item>
-  <item nodeId="node-0x70530b0">
+  <item nodeId="node-0x3e4d10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Extended Long Hallway
@@ -571,10 +571,10 @@ Extended Long Hallway
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x7053120" />
+      <child nodeId="node-0x3e4d80" />
     </children>
   </item>
-  <item nodeId="node-0x7053120">
+  <item nodeId="node-0x3e4d80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -583,10 +583,10 @@ Extended Long Hallway
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x7052b40" />
+      <child nodeId="node-0x3e4df0" />
     </children>
   </item>
-  <item nodeId="node-0x7052b40">
+  <item nodeId="node-0x3e4df0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 The Long Hallway
@@ -597,10 +597,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x7052bb0" />
+      <child nodeId="node-0x3e4e60" />
     </children>
   </item>
-  <item nodeId="node-0x7052bb0">
+  <item nodeId="node-0x3e4e60">
     <command xml:space="preserve">close crooked stairs</command>
     <result xml:space="preserve">You close the Crooked Stairs.
 
@@ -609,7 +609,7 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
   </item>
-  <item nodeId="node-0x7052c20">
+  <item nodeId="node-0x3e4ed0">
     <command xml:space="preserve">x boy</command>
     <result xml:space="preserve">You peer at him a bit more closely and realize that it&apos;s Billy.
 
@@ -618,53 +618,11 @@ You can see a Crooked Stairs here.
     <changed>NO</changed>
     <temporary score="16">YES</temporary>
     <children>
-      <child nodeId="node-0x70533d0" />
-      <child nodeId="node-0x70536e0" />
+      <child nodeId="node-0x3e4f40" />
+      <child nodeId="node-0x3e4750" />
     </children>
   </item>
-  <item nodeId="node-0x70536e0">
-    <command xml:space="preserve">x billy</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x7053750" />
-    </children>
-  </item>
-  <item nodeId="node-0x7053750">
-    <command xml:space="preserve">x boy</command>
-    <result xml:space="preserve">You see nothing special about Billy.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x70537c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70537c0">
-    <command xml:space="preserve">x Billy</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x7053830" />
-    </children>
-  </item>
-  <item nodeId="node-0x7053830">
-    <command xml:space="preserve">x Billy with tongue</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x70533d0">
+  <item nodeId="node-0x3e4750">
     <command xml:space="preserve">talk to the boy</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -673,10 +631,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7053440" />
+      <child nodeId="node-0x3e47c0" />
     </children>
   </item>
-  <item nodeId="node-0x7053440">
+  <item nodeId="node-0x3e47c0">
     <command xml:space="preserve">ask about the boy</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -685,10 +643,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x70534b0" />
+      <child nodeId="node-0x3e4830" />
     </children>
   </item>
-  <item nodeId="node-0x70534b0">
+  <item nodeId="node-0x3e4830">
     <command xml:space="preserve">the boy</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -697,10 +655,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7053520" />
+      <child nodeId="node-0x3e5020" />
     </children>
   </item>
-  <item nodeId="node-0x7053520">
+  <item nodeId="node-0x3e5020">
     <command xml:space="preserve">x the boy</command>
     <result xml:space="preserve">A boy not much older than you. He appears to be dressed up as Batman, and is shivering against the wall. He looks rather terrfied...but maybe he&apos;ll know how to get out?
 
@@ -709,10 +667,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7053590" />
+      <child nodeId="node-0x3e5090" />
     </children>
   </item>
-  <item nodeId="node-0x7053590">
+  <item nodeId="node-0x3e5090">
     <command xml:space="preserve">ask about the boys name</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -721,10 +679,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7053600" />
+      <child nodeId="node-0x3e5100" />
     </children>
   </item>
-  <item nodeId="node-0x7053600">
+  <item nodeId="node-0x3e5100">
     <command xml:space="preserve">ask for his name</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -733,16 +691,58 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7053670" />
+      <child nodeId="node-0x3e5170" />
     </children>
   </item>
-  <item nodeId="node-0x7053670">
+  <item nodeId="node-0x3e5170">
     <command xml:space="preserve">ask about the boy&apos;s name</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
   </item>
-  <item nodeId="node-0x70538a0">
+  <item nodeId="node-0x3e4f40">
+    <command xml:space="preserve">x billy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e4fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e4fb0">
+    <command xml:space="preserve">x boy</command>
+    <result xml:space="preserve">You see nothing special about Billy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e4670" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e4670">
+    <command xml:space="preserve">x Billy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e46e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e46e0">
+    <command xml:space="preserve">x Billy with tongue</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x3e51e0">
     <command xml:space="preserve">ask boy about name</command>
     <result xml:space="preserve">M-my name is B-Billy...
 
@@ -751,7 +751,7 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
   </item>
-  <item nodeId="node-0x7053910">
+  <item nodeId="node-0x3e5250">
     <command xml:space="preserve">x terrfied man</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -760,10 +760,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7053980" />
+      <child nodeId="node-0x3e52c0" />
     </children>
   </item>
-  <item nodeId="node-0x7053980">
+  <item nodeId="node-0x3e52c0">
     <command xml:space="preserve">talk to man</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -772,7 +772,7 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x70539f0">
+  <item nodeId="node-0x3e5330">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -781,7 +781,7 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x70df260">
+  <item nodeId="node-0x3e53a0">
     <command xml:space="preserve">look under gnome</command>
     <result xml:space="preserve">Yuck, theres a frog leg here! What is this doing here? Well, perhaps you may need it...plus it looks cool...You pocket the frog leg.
 
@@ -790,10 +790,10 @@ You can see a Crooked Stairs here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x4d0a60" />
+      <child nodeId="node-0x3e5410" />
     </children>
   </item>
-  <item nodeId="node-0x4d0a60">
+  <item nodeId="node-0x3e5410">
     <command xml:space="preserve">eat leg</command>
     <played>YES</played>
     <changed>YES</changed>

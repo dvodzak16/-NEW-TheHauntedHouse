@@ -11,7 +11,7 @@ The walkway is scenery in the Front Yard. The description is "A crooked, cracked
 
 The hedges is scenery in the Front Yard. The description is "Thick, healthy hedges that are an unusual height. You can't get around or over them."
 
-The White Horse is scenery in the Front Yard. The description is "Upon further inspection, the white horse is fake, how dissapointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?"
+The White Horse is scenery in the Front Yard. The description is "Upon further inspection, the white horse is fake, how disappointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?"
 
 The Garden Gnome is scenery in the Front Yard. The description is "A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side, but the turf isn't that deep..."
 
