@@ -13,7 +13,10 @@ The hedges is scenery in the Front Yard. The description is "Thick, healthy hedg
 
 The White Horse is scenery in the Front Yard. The description is "Upon further inspection, the white horse is fake, how disappointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?"
 
-The Garden Gnome is scenery in the Front Yard. The description is "A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side, but the turf isn't that deep..."
+The Garden Gnome is scenery in the Front Yard. The description is "A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side..."
+
+Instead of taking the Garden Gnome:
+	say "It would be too bulky to carry around. Might as well leave it here."
 
 Instead of looking under the Garden Gnome when the Frog Leg is lost:
 	move the Frog Leg to the player;
