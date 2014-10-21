@@ -9,7 +9,7 @@ project folder "/Users/dvodzak16/GitHub/TheHauntedHouse/TheHauntedHouse.inform"
 
 ! Blorb instructions
 
-storyfile leafname "TheHauntedHouse.gblorb"
+storyfile leafname "A Haunted Halloween.gblorb"
 storyfile "/Users/dvodzak16/GitHub/TheHauntedHouse/TheHauntedHouse.inform/Build/output.ulx" include
 ifiction "/Users/dvodzak16/GitHub/TheHauntedHouse/TheHauntedHouse.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
@@ -20,7 +20,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover
 placeholder [IFID] = "BAA55AFD-E247-4DF6-B0F8-57ABDFE04FED"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2014"
-placeholder [TITLE] = "TheHauntedHouse"
+placeholder [TITLE] = "A Haunted Halloween"
 placeholder [AUTHOR] = "Dylan Vodzak"
 placeholder [BLURB] = "A work of interactive fiction."
 
