@@ -1,5 +1,14 @@
 "A Haunted Halloween" by Dylan Vodzak
 
+[TO DO:
+FINISH DESCRIPTION ON ALL ROOMS
+ADD POTION EFFECTS IN
+PROGRAM NPC WITH MOODS
+MAGIC WORDS NEED TO BE PROGRAMMED
+IF HOLDING EFFECT, THEN READ BOOK
+ADD FLASHLIGHT INTO TRUNK
+MAKE FAMILY ROOM DARK]
+
 When play begins: say "Its Halloween, and you're out trick-or-treating with your parents. Its almost midnight, and you have arrived at this spooky-looking house. You look for your parents, but they seem to have run into a friend. You'll only take a second. You open the large iron gate and enter the front yard, and as you enter, the gate slams behind you! Trapped, your parents can't seem to hear you; you have to find a way out!"
 
 The Front Yard is a room. The description is "A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south."
@@ -97,14 +106,16 @@ Instead of playing the piano:
 
 The Yellow Key is a thing. It unlocks the Trunk. The description is "A key that had been hidden in the piano. It should be able to unlock something."
 
-The Family Room is a room. It is west of the Main Room. "The room is dim, and you don't really want to stay here. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east."
+[FAMILY ROOM]
+
+The Family Room is a dark room. It is west of the Main Room. The description is "The room is dim, even with the flashlight on. You can't see much. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east."
 
 The lamp is a device in the Family Room. The lamp is fixed in place. The lamp is undescribed. The description is "An old lamp. It has a bunch of dust on top, along with several cobwebs on the inside. Its plugged into the wall, so it might still work." The lamp is unlit.
 
 The lamp is switched off.
 
 Instead of switching on the lamp:
-	say "[first time]Clicking on the switch, you feel better now that the room is lit. Something gleams in the corner of the room. It looks like a miniature unicorn horn. Might as well, right? You take the horn. The lamp sputters out all of a sudden. [only]You click the light on and off, but nothing happens.";
+	say "[first time]Clicking on the switch, the room lights up even more. Something gleams in the corner of the room. It looks like a miniature unicorn horn. Might as well, right? You take the horn. The lamp sputters out all of a sudden. [only]You click the light on and off, but nothing happens.";
 	move the Unicorn Horn to the player
 	
 The chair is a thing in the Family Room. The chair is fixed in place. The chair is undescribed. The description is "A fabricated, comfy-looking chair. It has floral patterns all over it. It matches the rug nicely"
@@ -119,24 +130,58 @@ The painting is scenery in the Family room. The description is "There is a woman
 	
 The Unicorn Horn is a thing. The description is "A miniature unicorn horn. You're uncertain if its real or not. It has a magical touch to it."
 
-The Library is a room. It is east of the Main Room. 
+The Library is a room. It is east of the Main Room. The description is "Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west."
+
+The shelves is scenery in the Library. The description is "All of the shelves are made out of a nice oak wood. Nothing seems to particularly stand out about any of them though."
+
+The books is scenery in the Library. The description is "Hundreds of books are stocked on the shelves. Topics range from 'The Study of Werewolves', to 'The Tale of Count Dracula'. Other than the content, the books don't seem too special."
+
+The blue book is a thing in the Library. The blue book is undescribed. The description is "This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, 'Sec~~t ~o~m in t~e b~dr~~m...' Thats all you can make out."
+
+The unreadable red book is a thing in the Library. The red book is undescribed. The description is "You open the red book and try to read the words, but for some reason, the words are all distorted. No matter what you did, the words never made sense to you. You close the book, it was beginning to give you a headache."
+
+Instead of taking the unreadable red book:
+	say "We should leave this here, its best not to lug a heavy book like this around."
+	
+The long carpet is scenery in the Library. The description is "A long blood-red carpet thats stretches from the door to the window. Although you don't agree with the color, its still a nice carpet."
+
+[Possibly add picture here???]
+
+The window is scenery in the Library. The description is "You take a look outside, but you can't see much. You can make out a tree and the hedges, but thats it."
+
 
 [Long Hallway]
 
-The Long Hallway is a room. It is north of the Main Room. 
+The Long Hallway is a room. It is north of the Main Room. The description is "The room is dank, and it doesn't smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north."
 
-In the Long Hallway is a man called a boy.  
+The armor is a thing in the Long Hallway. The armor is fixed in place. The armor is undescribed. The description is "The armor seems genuine, but then again, you aren't an expert at the identification of armor. It seems like it has been polished recently. Probably a good idea not to touch it..."
+
+Instead of taking armor:
+	say "The armor must weigh more than a 100 pounds! Lets just leave it alone.";
+	
+The ominous painting is in the Long Hallway. The ominous painting is fixed in place. The ominous painting is undescribed. The description is "You peer at the painting and notice a dark figure in the middle of the painting. You can't really make out anything else in the painting. As ominous as the painting is, it doesn't seem to be very special."
+
+In the Long Hallway is a man called a boy. A boy is undescribed.   
 
 Instead of examining the a boy for the first time: 
     now the printed name of the a boy is "Billy"; 
     now the a boy is proper-named; 
-    say "You peer at him a bit more closely and realize that it's Billy."
+    say "You peer at him a bit more closely and realize that it's Billy. Perhaps we should talk to him?"
 
-The description of a boy is "A boy not much older than you. He is dressed as Batman, and is shivering against the hallway wall. Maybe he might know something about the house."
+The description of a boy is "A boy not much older than you. He is dressed as Batman, and is shivering against the hallway wall. He looks terrified. Maybe he might know something about the house."
+
+[EXTENDED LONG HALLWAY]
 	
+The Extended Long Hallway is a room. It is north of the Long Hallway. The description is "This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east."
 
+The cracked window is scenery in the Extended Long Hallway. The description is "You can see the window is cracked in the corner. The window oversees the backyard of the house. Nothing really interesting to look at. "
 
-The Extended Long Hallway is a room. It is north of the Long Hallway.
+The crack is scenery in the Extended Long Hallway. The description is "A large crack near the bottom of the window. Perhaps it was caused by a rock from a neighbor?"
+
+The dresser is a closed container in the Extended Long Hallway. The dresser is undescribed. The dresser is openable and closed. The dresser is fixed in place. The description is "A wooden dresser that seems to be made of oak."
+
+The photograph is a thing in the dresser. The description is "In the photograph, you can see what appears to be the blurred figure of the current owner of the house, yelling at some kids on her yard...Who took this?"
+
 
 [CAULDRON ROOM]
 
@@ -145,16 +190,52 @@ The Cauldron Room is a room. It is west of the Extended Long Hallway. The descri
 The table is a thing in the cauldron room. The table is fixed in place. The table is undescribed. The description is "An ordinary, wooden table. It sits in the corner of the room. What looks like a potion book is on the table."
 
 The potion book is a thing. The potion book is on top of the table. The potion book is fixed in place. The potion book is undescribed. The description is "A heavy book that has three bookmarked pages.
-[bold type]The Green Potion:[roman type] This allows an object or a person to be transformed into their original state, if they have been transformed beforehand.
-[bold type]The Blue Potion:[roman type] Whoever consumes this potion will have their nerves-eased and will feel well again.
+[bold type]The Green Potion:[roman type] Whoever consumes this potion will have their nerves-eased and will feel well again.
+[bold type]The Blue Potion:[roman type] This allows an object or a person to be transformed into their original state, if they have been transformed beforehand.
 [bold type]The Red Potion:[roman type] A peculiar potion which allows the consumer to decrypt hidden messages that might have given them trouble without any aid."
 
 Instead of taking the potion book:
 	say "The book seems much to heavy to lug around. Its best to leave it here."
+	
+[BEDROOM]
 
-The Bedroom is a room. It is east of the Extended Long Hallway.
+The Bedroom is a room. It is east of the Extended Long Hallway. The description is "You peer into the room to find it empty. The bedroom isn't dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. You feel an unnatural breeze..."
 
-The Trunk is scenery in the Bedroom. It is a container. 
+The bed is a thing in the bedroom. The bed is fixed in place. The bed is undescribed. The description is "A bed with a floral pattern on the bedspread. It seems very comfy to sleep on. Its neatly made, and looks like someone has slept here recently..."
 
-The Secret Room is a room. It is south of the Spooky Bedroom. 
+The desk is a thing in the bedroom. The desk is fixed in place. The desk is undescribed. The description is "A flat and wooden desk. You can see a stack of papers on one side of the desk, but there is one paper centered in the middle of the desk that looks like someone has been reading it."
+
+The stack of papers is a thing in the bedroom. The stack of papers is fixed in place. The stack of papers is undescribed. The description is "You sift through the pile, but only find bills. Nothing seems out of the ordinary about them."
+
+The paper is a thing in the bedroom. The paper is undescribed. The description is "It looks like a letter which was written by one of the neighbors. Its addressed to a 'Mary Bradbury'. The letter is a complaint from a neighbor, saying how she didn't like Ms. Bradbury's methods with dealing with children. The letter goes on about how the neighbor might have to call the police if behavior like this continues."
+
+Instead of taking the paper for the first time:
+	say "You hear a cackle echo throughout the house.";
+	move the paper to the player;
+
+The trunk is a closed container in the Bedroom. The trunk is undescribed. The trunk is lockable and locked. The trunk is fixed in place. The description is "An old-fashioned trunk, it looks like it would hold clothes. Upon further inspection, it looks like this trunk was once a yellow color."
+
+The flashlight is a device in the trunk. The description of the flashlight is "A heavy duty flashlight used to light up dark areas." The flashlight is unlit.
+
+The flashlight is switched off.
+
+After switching on the flashlight:
+	say "You click the flashlight on";
+	now the flashlight is lit.
+
+After switching off the flashlight:
+	say "You click the flashlight off.";
+	now the flashlight is unlit.
+
+
+[SECRET ROOM]
+
+The Secret Room is a room. It is south of the Bedroom. The description is "An eerie silence falls upon you as you enter this cold room. Its cramped with a single table in the center of the room, with a diary on top. This room freaks you out..."
+
+The stout table is a thing in the Secret Room. The stout table is fixed in place. The stout table is undescribed. The description is "A three-legged table centered in the middle of the room."
+
+The diary is a thing on top of the stout table. The diary is undescribed. The description is "You flip through the diary, it has entries all made by the same person, Mary Bradbury. You notice some of the recent entries. She talks about scaring away kids from her property, and how its enjoyable to cause trouble with a little magic. She also mentions turning a kid into a plastic horse because she knew the certain word to unlock her iron gate. You close the book, you felt dizzy from all the reading. "
+
+
+
 
