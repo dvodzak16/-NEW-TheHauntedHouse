@@ -25,7 +25,7 @@ Instead of eating the Frog Leg:
 
 [OBJECTS THAT WILL BE COMBINED]
 
-The Cauldron is in the Cauldron Room. The Cauldron is a thing. The cauldron is fixed in place. The Cauldron is undescribed. The description is "A big black cauldron that appears to be fixed to the floor. It looks like you could combine ingredients in here. Its filled halfway with a mysterious liquid."
+The Cauldron is in the Cauldron Room. The Cauldron is a thing. The cauldron is fixed in place. The Cauldron is undescribed. The description is "A big black cauldron that appears to be fixed to the floor. It looks like you could [bold type]combine [Roman type]ingredients in here. Its filled halfway with a mysterious liquid."
 
 The Frog Leg is a thing. The Frog Leg can be found or lost. The Frog Leg is lost. The description is "A dried frog leg that has strange patterns on it. It has a magical touch to it."
 
@@ -36,16 +36,28 @@ Instead of combining Frog Leg with Cauldron:
 	
 The Green Potion is a thing. The description is "A green potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
 
+The Red Potion is a thing. The description is "A red potion in a small vile. You smell it, and it has a nice aroma to it."
+
 Combining it with is an action applying to two things.
 Understand "combine [Frog Leg] with [Cauldron]" as combining it with.
 Understand "combine [Frog leg] with [mysterious liquid]" as combining it with.
 Understand "combine [Green Potion] with [mysterious liquid]" as combining it with.
+Understand "combine [Unicorn Horn] with [mysterious liquid]" as combining it with.
+Understand "combine [Red Potion] with [mysterious liquid]" as combining it with.
+
+Instead of combining Unicorn Horn with mysterious liquid:
+	say "You plop the Unicorn Horn into the liquid with a splash. The new brew turns red, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.";
+	remove Unicorn Horn from play;
+	move Red Potion to player
+
+Instead of combining Red Potion with mysterious liquid:
+	say "Upon refilling the potion with more pink liquid, nothing appears to change to either of the substances."
 
 Instead of combining Green Potion with mysterious liquid:
 	say "Upon refilling the potion with more pink liquid, nothing appears to change to either of the substances."
 	
 Instead of combining Frog Leg with mysterious liquid:
-	say "You plopped the Frog Leg into the liquid with a splash. The new brew turns green, begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.";
+	say "You plop the Frog Leg into the liquid with a splash. The new brew turns green, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.";
 	remove Frog Leg from play;
 	move Green Potion to player
 
@@ -79,12 +91,33 @@ Understand "play [something]" as playing.
 Instead of playing: say "This isn't an instrument."
 
 Instead of playing the piano:
-	say "You sit down and blow the dust off the piano. You begin to play the Für Elise, the song you've been learning recently from your piano teacher. The song echoes throughout the house. When you finish the song, you hear something drop to the floor.";
-	move Yellow Key to the main room.
-	
+	say "You sit down and blow the dust off the piano. You begin to play the Für Elise, the song you've been learning recently from your piano teacher. The song echoes throughout the house. [first time]When you finish the song, you hear something drop to the floor. You look under the piano and see a yellow key. You grab it and put it in your costume's pocket. [only]";
+	move the Yellow Key to the player.
+
+
 The Yellow Key is a thing. It unlocks the Trunk. The description is "A key that had been hidden in the piano. It should be able to unlock something."
 
-The Family Room is a room. It is west of the Main Room.
+The Family Room is a room. It is west of the Main Room. "The room is dim, and you don't really want to stay here. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east."
+
+The lamp is a device in the Family Room. The lamp is fixed in place. The lamp is undescribed. The description is "An old lamp. It has a bunch of dust on top, along with several cobwebs on the inside. Its plugged into the wall, so it might still work." The lamp is unlit.
+
+The lamp is switched off.
+
+Instead of switching on the lamp:
+	say "[first time]Clicking on the switch, you feel better now that the room is lit. Something gleams in the corner of the room. It looks like a miniature unicorn horn. Might as well, right? You take the horn. The lamp sputters out all of a sudden. [only]You click the light on and off, but nothing happens.";
+	move the Unicorn Horn to the player
+	
+The chair is a thing in the Family Room. The chair is fixed in place. The chair is undescribed. The description is "A fabricated, comfy-looking chair. It has floral patterns all over it. It matches the rug nicely"
+
+The rug is a thing in the Family Room. The rug is fixed in place. The rug is undescribed. The description is "A large rug that covers most of the room. Its soft, and has a big floral patter on it. It matches the chair nicely."
+
+The TV is a thing in the Family Room. The TV is fixed in place. The TV is undescribed. The description is "An old box TV. It even has antennas on top. The screen remains blank and motionless."
+Instead of switching on the TV:
+	say "You turn the knob several times, but nothing happens."
+	
+The painting is scenery in the Family room. The description is "There is a woman standing in a field, dressed in black. She doesn't look familiar to you. She looks like she is staring at you..."
+	
+The Unicorn Horn is a thing. The description is "A miniature unicorn horn. You're uncertain if its real or not. It has a magical touch to it."
 
 The Library is a room. It is east of the Main Room. 
 
@@ -111,7 +144,7 @@ The Cauldron Room is a room. It is west of the Extended Long Hallway. The descri
 
 The table is a thing in the cauldron room. The table is fixed in place. The table is undescribed. The description is "An ordinary, wooden table. It sits in the corner of the room. What looks like a potion book is on the table."
 
-The potion book is a thing in the cauldron room. The potion book is fixed in place. The potion book is undescribed. The description is "A heavy book that has three bookmarked pages.
+The potion book is a thing. The potion book is on top of the table. The potion book is fixed in place. The potion book is undescribed. The description is "A heavy book that has three bookmarked pages.
 [bold type]The Green Potion:[roman type] This allows an object or a person to be transformed into their original state, if they have been transformed beforehand.
 [bold type]The Blue Potion:[roman type] Whoever consumes this potion will have their nerves-eased and will feel well again.
 [bold type]The Red Potion:[roman type] A peculiar potion which allows the consumer to decrypt hidden messages that might have given them trouble without any aid."
