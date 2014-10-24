@@ -1,10 +1,6 @@
 "A Haunted Halloween" by Dylan Vodzak
 
-[TO DO:
-ADD POTION EFFECTS IN
-PROGRAM NPC WITH MOODS
-MAGIC WORDS NEED TO BE PROGRAMMED
-IF HOLDING EFFECT, THEN READ BOOK]
+[To do: Blue Potion]
 
 When play begins: say "Its Halloween, and you're out trick-or-treating with your parents. Its almost midnight, and you have arrived at this spooky-looking house. You look for your parents, but they seem to have run into a friend. You'll only take a second. You open the large iron gate and enter the front yard, and as you enter, the gate slams behind you! Trapped, your parents can't seem to hear you; you have to find a way out!"
 
@@ -49,6 +45,12 @@ Instead of combining Rat Tail with Cauldron:
 The Green Potion is a thing. The description is "A green potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
 
 The Red Potion is a thing. The description is "A red potion in a small vile. Upon smelling it, you discover that it has a nice aroma to it."
+
+Instead of drinking Red potion:
+	say "You down the potion. It tastes surprisingly pleasant.";
+	remove Red Potion from play;
+	remove unreadable red book from play;
+	move readable red book to the Library
 
 The Blue Potion is a thing. The description is "A blue potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
 
@@ -148,6 +150,8 @@ The painting is scenery in the Family room. The description is "There is a woman
 	
 The Unicorn Horn is a thing. The description is "A miniature unicorn horn. You're uncertain if its real or not. It has a magical touch to it."
 
+[LIBRARY]
+
 The Library is a room. It is east of the Main Room. The description is "Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west."
 
 The shelves is scenery in the Library. The description is "All of the shelves are made out of a nice oak wood. Nothing seems to particularly stand out about any of them though."
@@ -156,10 +160,16 @@ The books is scenery in the Library. The description is "Hundreds of books are s
 
 The blue book is a thing in the Library. The blue book is undescribed. The description is "This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, 'Sec~~t ~o~m in t~e b~dr~~m...' Thats all you can make out."
 
-The unreadable red book is a thing in the Library. The red book is undescribed. The description is "You open the red book and try to read the words, but for some reason, the words are all distorted. No matter what you did, the words never made sense to you. You close the book, it was beginning to give you a headache."
+The unreadable red book is a thing in the Library. The unreadable red book is undescribed. The description is "You open the red book and try to read the words, but for some reason, the words are all distorted. No matter what you did, the words never made sense to you. You close the book, it was beginning to give you a headache."
 
 Instead of taking the unreadable red book:
 	say "We should leave this here, its best not to lug a heavy book like this around."
+	
+The readable red book is a thing. The readable red book is undescribed. The description is "You stare at the letters, but this time, they re-arrange themselves into English, allowing you to read them. You notice a bookmarked page. It says, 'To open the door, its a quick simple task. However, for this, you wont need no flask. Just one word, nothing too scary. The secret word is [bold type]Aperi[roman type].' "
+
+Instead of taking the readable red book:
+	say "We should leave this here, its best not to lug a heavy book like this around."
+
 	
 The long carpet is scenery in the Library. The description is "A long blood-red carpet thats stretches from the door to the window. Although you don't agree with the color, its still a nice carpet."
 
@@ -181,12 +191,20 @@ The ominous painting is in the Long Hallway. The ominous painting is fixed in pl
 
 In the Long Hallway is a man called a boy. A boy is undescribed.   
 
-Instead of examining the a boy for the first time: 
-    now the printed name of the a boy is "Billy"; 
-    now the a boy is proper-named; 
-    say "You peer at him a bit more closely and realize that it's Billy. Perhaps we should talk to him?"
+Instead of examining the a boy:
+	If a boy is frightened:
+		say "A boy not much older than you. He is dressed as Batman, and is shivering against the hallway wall. He looks [the mood of a boy]. Maybe he might know something about the house.";
+	If a boy is calm:
+		say "A boy not much older than you. He is dressed as Batman, and is standing to the side of the hallway wall. He looks [the mood of a boy]. Maybe he might know something about the house. You ask him [one of]how he got here. His eyes got big and said that, just like you, he had walked in the front yard, when the gate shut behind him. He came inside the house, but got too scared to go any further.[or]about the house. He admits that he doesn't know much about it, other than its really scary. He said he lives several blocks down.[or]about his costume. He smiles and says that he has always admired Batman.[cycling][one of]Right before you are about to go, he says I should check the piano if I hadn't already. It looked suspicious to him.[or]Right before you are about to go, he says to make sure that you examine everything around the house, anything could be a clue.[cycling]
+		[bold type]Try examining him multiple times.[roman type]";
 
-The description of a boy is "A boy not much older than you. He is dressed as Batman, and is shivering against the hallway wall. He looks terrified. Maybe he might know something about the house."
+Instead of giving the Green Potion to a boy:
+	remove the Green Potion from play;
+	now a boy is calm;
+	say "The boy drinks the potion. He closes his eyes, and takes a big breath. When he opens his eyes again, he seems very relaxed."
+
+[MOOD]
+Mood is a kind of value. The moods are frightened, and calm. A person has a mood. A person is usually calm. The mood of a boy is frightened.
 
 [EXTENDED LONG HALLWAY]
 	
@@ -270,4 +288,55 @@ The diary is a thing on top of the stout table. The diary is undescribed. The de
 
 
 The Rat Tail is a thing in the Secret Room. The description is "The rat tail seems much larger than a normal rat's tail. Perhaps we could use it somehow...I hope...It has a magical touch to it."
+
+[Winning the game]
+
+Instead of giving the Blue Potion to White Horse:
+	end the story finally saying "You pour the potion over the horse, and before your very eyes, the plastic horse transforms into a girl about your age! You call for the boy inside, who bursts out of the front door in seconds. The girl closes her eyes and mutters a phrase under he breath, and the iron gate swings open. The three of you sprint out of the gate and into the street. Panting, you look up to find that both the boy and the girl had disappeared...strange, you were going to thank them. You run back to your parents, they must be worried sick about you! You arrive, and to your surprise, nothing much has changed, as if only a couple seconds had passed by. You were about to tell your parents about the house, when you turned around, and it wasn't there. An empty lot with a lonesome tree in it stood in its place. You thought you heard a cackle in the distance."
+
+[ROUTE TO WIN GAME:
+Go north
+Play piano to obtain key
+Go north
+Go north
+Go east
+Unlock yellow trunk in bedroom
+Get flashlight from trunk
+Go west
+Go south
+Go south
+Go west
+Turn on flashlight
+Turn on lamp
+Go east
+Go north
+Go north
+Go west
+Combine horn with mysterious liquid
+Drink potion
+Go east
+Go south
+Go south
+Go east
+Read blue book
+Read red book
+Go west
+Go north
+Go north
+Go east
+Say Aperi
+Go south
+Take tail
+Go north
+Go west
+Go west
+combine tail with mysterious liquid
+Go east
+Go south
+Go south
+Go south
+Give blue potion to white horse
+Win
+]
+
 
