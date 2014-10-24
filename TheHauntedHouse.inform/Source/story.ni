@@ -1,13 +1,10 @@
 "A Haunted Halloween" by Dylan Vodzak
 
 [TO DO:
-FINISH DESCRIPTION ON ALL ROOMS
 ADD POTION EFFECTS IN
 PROGRAM NPC WITH MOODS
 MAGIC WORDS NEED TO BE PROGRAMMED
-IF HOLDING EFFECT, THEN READ BOOK
-ADD FLASHLIGHT INTO TRUNK
-MAKE FAMILY ROOM DARK]
+IF HOLDING EFFECT, THEN READ BOOK]
 
 When play begins: say "Its Halloween, and you're out trick-or-treating with your parents. Its almost midnight, and you have arrived at this spooky-looking house. You look for your parents, but they seem to have run into a friend. You'll only take a second. You open the large iron gate and enter the front yard, and as you enter, the gate slams behind you! Trapped, your parents can't seem to hear you; you have to find a way out!"
 
@@ -43,16 +40,37 @@ The mysterious liquid is a thing. The mysterious liquid is fixed in place. The m
 Instead of combining Frog Leg with Cauldron:
 	say "You can't combine this with the cauldron. Perhaps try combining it with the liquid inside?"
 	
+Instead of combining Unicorn Horn with Cauldron:
+	say "You can't combine this with the cauldron. Perhaps try combining it with the liquid inside?"
+
+Instead of combining Rat Tail with Cauldron:
+	say "You can't combine this with the cauldron. Perhaps try combining it with the liquid inside?"
+	
 The Green Potion is a thing. The description is "A green potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
 
-The Red Potion is a thing. The description is "A red potion in a small vile. You smell it, and it has a nice aroma to it."
+The Red Potion is a thing. The description is "A red potion in a small vile. Upon smelling it, you discover that it has a nice aroma to it."
+
+The Blue Potion is a thing. The description is "A blue potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
 
 Combining it with is an action applying to two things.
 Understand "combine [Frog Leg] with [Cauldron]" as combining it with.
 Understand "combine [Frog leg] with [mysterious liquid]" as combining it with.
 Understand "combine [Green Potion] with [mysterious liquid]" as combining it with.
 Understand "combine [Unicorn Horn] with [mysterious liquid]" as combining it with.
+Understand "combine [Unicorn Horn] with [Cauldron]" as combining it with.
 Understand "combine [Red Potion] with [mysterious liquid]" as combining it with.
+Understand "combine [Rat Tail] with [mysterious liquid]" as combining it with.
+Understand "combine [Rat Tail] with [Cauldron]" as combining it with.
+Understand "combine [Blue Potion] with [mysterious liquid]" as combining it with.
+
+Instead of combining Blue Potion with mysterious liquid:
+	say "Upon refilling the potion with more pink liquid, nothing appears to change to either of the substances."
+
+Instead of combining Rat Tail with mysterious liquid:
+	say "You plop the Rat Tail into the liquid with a splash. The new brew turns blue, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.";
+	remove Rat Tail from play;
+	move Blue Potion to player
+	
 
 Instead of combining Unicorn Horn with mysterious liquid:
 	say "You plop the Unicorn Horn into the liquid with a splash. The new brew turns red, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.";
@@ -227,15 +245,29 @@ After switching off the flashlight:
 	say "You click the flashlight off.";
 	now the flashlight is unlit.
 
+[SECRET DOORWAY ALONG WITH COMMAND:
+All credit goes to Riley for showing me how to do this]
+
+The Secret Door is a Door. The Secret Door is north of the Secret Room and south of the Bedroom. The Secret Door is locked and lockable. It is undescribed.
+
+Understand "Aperi" or "say Aperi" or "cast Aperi" as casting Aperi.
+
+Casting Aperi is an action applying to nothing.
+
+Check casting Aperi: 
+	If the player is in the Bedroom, say "[first time]You hear a groaning sound to the south, and look to see the south wall of the bedroom open up. You would never have guessed this was here![only]The secret door is gaping open.";
+	now the Secret Door is described;
+	now the description of the Secret Door is "A well hidden doorway inside the wall. Even with a closer look, it would have been hard to spot."	
+
 
 [SECRET ROOM]
 
-The Secret Room is a room. It is south of the Bedroom. The description is "An eerie silence falls upon you as you enter this cold room. Its cramped with a single table in the center of the room, with a diary on top. This room freaks you out..."
+The Secret Room is a room. It is south of the Secret Door. The description is "An eerie silence falls upon you as you enter this cold room. Its cramped with a single table in the center of the room, with a diary on top. This room freaks you out..."
 
 The stout table is a thing in the Secret Room. The stout table is fixed in place. The stout table is undescribed. The description is "A three-legged table centered in the middle of the room."
 
 The diary is a thing on top of the stout table. The diary is undescribed. The description is "You flip through the diary, it has entries all made by the same person, Mary Bradbury. You notice some of the recent entries. She talks about scaring away kids from her property, and how its enjoyable to cause trouble with a little magic. She also mentions turning a kid into a plastic horse because she knew the certain word to unlock her iron gate. You close the book, you felt dizzy from all the reading. "
 
 
-
+The Rat Tail is a thing in the Secret Room. The description is "The rat tail seems much larger than a normal rat's tail. Perhaps we could use it somehow...I hope...It has a magical touch to it."
 
