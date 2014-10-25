@@ -10,7 +10,7 @@ The walkway is scenery in the Front Yard. The description is "A crooked, cracked
 
 The hedges is scenery in the Front Yard. The description is "Thick, healthy hedges that are an unusual height. You can't get around or over them."
 
-The White Horse is scenery in the Front Yard. The description is "Upon further inspection, the white horse is fake, how disappointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?"
+The White Horse is an animal in the Front Yard. It is undescribed. The description is "Upon further inspection, the white horse is fake, how disappointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?"
 
 The Garden Gnome is scenery in the Front Yard. The description is "A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side..."
 
@@ -266,7 +266,7 @@ After switching off the flashlight:
 [SECRET DOORWAY ALONG WITH COMMAND:
 All credit goes to Riley for showing me how to do this]
 
-The Secret Door is a Door. The Secret Door is north of the Secret Room and south of the Bedroom. The Secret Door is locked and lockable. It is undescribed.
+The Secret Door is a Door. The Secret Door is north of the Secret Room and south of the Bedroom. It is undescribed.
 
 Understand "Aperi" or "say Aperi" or "cast Aperi" as casting Aperi.
 
