@@ -42,7 +42,7 @@ Instead of combining Unicorn Horn with Cauldron:
 Instead of combining Rat Tail with Cauldron:
 	say "You can't combine this with the cauldron. Perhaps try combining it with the liquid inside?"
 	
-The Green Potion is a thing. The description is "A green potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
+The Green Potion is a thing. The description is "A green potion in a small vile. Its best not to open it right now. You could probably [bold type]give[roman type] this potion to someone/something."
 
 The Red Potion is a thing. The description is "A red potion in a small vile. Upon smelling it, you discover that it has a nice aroma to it."
 
@@ -52,7 +52,7 @@ Instead of drinking Red potion:
 	remove unreadable red book from play;
 	move readable red book to the Library
 
-The Blue Potion is a thing. The description is "A blue potion in a small vile. Its best not to open it right now. Perhaps if you knew what this potion was used for, you could put it to use."
+The Blue Potion is a thing. The description is "A blue potion in a small vile. Its best not to open it right now. You could probably [bold type]give[roman type] this potion to someone/something."
 
 Combining it with is an action applying to two things.
 Understand "combine [Frog Leg] with [Cauldron]" as combining it with.
@@ -216,7 +216,7 @@ The crack is scenery in the Extended Long Hallway. The description is "A large c
 
 The dresser is a closed container in the Extended Long Hallway. The dresser is undescribed. The dresser is openable and closed. The dresser is fixed in place. The description is "A wooden dresser that seems to be made of oak."
 
-The photograph is a thing in the dresser. The description is "In the photograph, you can see what appears to be the blurred figure of the current owner of the house, yelling at some kids on her yard...Who took this?"
+The photo is a thing in the dresser. The description is "In the photograph, you can see what appears to be the blurred figure of the current owner of the house, yelling at some kids on her yard...Who took this?"
 
 
 [CAULDRON ROOM]
@@ -235,7 +235,9 @@ Instead of taking the potion book:
 	
 [BEDROOM]
 
-The Bedroom is a room. It is east of the Extended Long Hallway. The description is "You peer into the room to find it empty. The bedroom isn't dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. You feel an unnatural breeze..."
+The Bedroom is a room. It is east of the Extended Long Hallway. The description is "You peer into the room to find it empty. The bedroom isn't dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. [If the Secret Door is undescribed]You feel an unnatural breeze..."
+
+The breeze is scenery in the Bedroom. It is undescribed. The description is "You feel a light breeze coming from somewhere in the room, however, there are no open windows."
 
 The bed is a thing in the bedroom. The bed is fixed in place. The bed is undescribed. The description is "A bed with a floral pattern on the bedspread. It seems very comfy to sleep on. Its neatly made, and looks like someone has slept here recently..."
 
@@ -275,7 +277,8 @@ Casting Aperi is an action applying to nothing.
 Check casting Aperi: 
 	If the player is in the Bedroom, say "[first time]You hear a groaning sound to the south, and look to see the south wall of the bedroom open up. You would never have guessed this was here![only]The secret door is gaping open.";
 	now the Secret Door is described;
-	now the description of the Secret Door is "A well hidden doorway inside the wall. Even with a closer look, it would have been hard to spot."	
+	now the description of the Secret Door is "A well hidden doorway inside the wall. Even with a closer look, it would have been hard to spot.";
+	remove breeze from play
 
 
 [SECRET ROOM]

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x3ea8f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xa9266c0" />
+  <activeNode nodeId="node-0x681d330" />
   <item nodeId="node-0x3ea8f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -18,8 +18,8 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="174">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="1446">NO</temporary>
     <children>
       <child nodeId="node-0x6865bc0" />
       <child nodeId="node-0x68648f0" />
@@ -316,6 +316,9 @@ You peer into the room to find it empty. The bedroom isn&apos;t dusty in the lea
   </item>
   <item nodeId="node-0xa9266c0">
     <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="173">YES</temporary>
@@ -328,11 +331,303 @@ Upon entering, you can clearly see that this is the biggest room in the house. T
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="26">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="199">YES</temporary>
     <children>
       <child nodeId="node-0x6863880" />
+      <child nodeId="node-0xa966850" />
     </children>
+  </item>
+  <item nodeId="node-0xa966850">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xa93f130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa93f130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xa95d680" />
+    </children>
+  </item>
+  <item nodeId="node-0xa95d680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e7d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e7d30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x6899bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6899bc0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e2670" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e2670">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x6872430" />
+    </children>
+  </item>
+  <item nodeId="node-0x6872430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x68d3a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x68d3a40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xa944460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa944460">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x499380" />
+    </children>
+  </item>
+  <item nodeId="node-0x499380">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x689a1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x689a1a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x287b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x287b40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x68eedb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68eedb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x290ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x290ce0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x33d9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x33d9f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x336f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x336f70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e2700" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e2700">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xa950290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa950290">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x681a600" />
+    </children>
+  </item>
+  <item nodeId="node-0x681a600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x688b310" />
+    </children>
+  </item>
+  <item nodeId="node-0x688b310">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x409930" />
+    </children>
+  </item>
+  <item nodeId="node-0x409930">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x44d7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x44d7f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0x4070a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4070a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xa937740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa937740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
   </item>
   <item nodeId="node-0x6863880">
     <command xml:space="preserve">n</command>
@@ -768,15 +1063,2865 @@ A large front yard surrounded by 10 foot tall hedges. An iron gate is locked beh
   </item>
   <item nodeId="node-0x6863fb0">
     <command xml:space="preserve">x horse</command>
-    <result xml:space="preserve">Upon further inspection, the white horse is fake, how dissapointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?
+    <result xml:space="preserve">Upon further inspection, the white horse is fake, how disappointing. It is made out of plastic and is about the same size as a horse would be. Why is this here?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x6864020" />
+      <child nodeId="node-0x4ba570" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ba570">
+    <command xml:space="preserve">take horse</command>
+    <result xml:space="preserve">I don&apos;t suppose the White Horse would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x680d310" />
+    </children>
+  </item>
+  <item nodeId="node-0x680d310">
+    <command xml:space="preserve">x gnome</command>
+    <result xml:space="preserve">A simple looking gnome that is centered in the middle of the right part of the yard. It looks unbalanced on the yard, leaning slightly to one side...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e12b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e12b0">
+    <command xml:space="preserve">look under gnome</command>
+    <result xml:space="preserve">Yuck, theres a frog leg here! What is this doing here? Well, perhaps you may need it...plus it looks cool...You pocket the frog leg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e7e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e7e80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Frog Leg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x6832280" />
+    </children>
+  </item>
+  <item nodeId="node-0x6832280">
+    <command xml:space="preserve">take gnome</command>
+    <result xml:space="preserve">It would be too bulky to carry around. Might as well leave it here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68f3540" />
+    </children>
+  </item>
+  <item nodeId="node-0x68f3540">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68257b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68257b0">
+    <command xml:space="preserve">x piano</command>
+    <result xml:space="preserve">A grand piano that is to the left of the front door. It has a thick coat of dust and doesn&apos;t look like it has been played in a while.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ee2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ee2d0">
+    <command xml:space="preserve">play piano</command>
+    <result xml:space="preserve">You sit down and blow the dust off the piano. You begin to play the Für Elise, the song you&apos;ve been learning recently from your piano teacher. The song echoes throughout the house. When you finish the song, you hear something drop to the floor. You look under the piano and see a yellow key. You grab it and put it in your costume&apos;s pocket. 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x37b6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x37b6f0">
+    <command xml:space="preserve">x plants</command>
+    <result xml:space="preserve">Which do you mean, the potted plant on the right or the potted plant on the left?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x827c6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x827c6c0">
+    <command xml:space="preserve">right</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ba000" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ba000">
+    <command xml:space="preserve">x left plant</command>
+    <result xml:space="preserve">A potted plant to the left of the stairs that seems unusually healthy compared to its surroundings.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x3d1790" />
+    </children>
+  </item>
+  <item nodeId="node-0x3d1790">
+    <command xml:space="preserve">x right plant</command>
+    <result xml:space="preserve">A potted plant to the right of the stairs that seems unusually healthy compared to its surroundings.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e7630" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e7630">
+    <command xml:space="preserve">take right plant</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x3d21a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3d21a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82461f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82461f0">
+    <command xml:space="preserve">x armor</command>
+    <result xml:space="preserve">The armor seems genuine, but then again, you aren&apos;t an expert at the identification of armor. It seems like it has been polished recently. Probably a good idea not to touch it...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c7f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c7f10">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">You peer at the painting and notice a dark figure in the middle of the painting. You can&apos;t really make out anything else in the painting. As ominous as the painting is, it doesn&apos;t seem to be very special.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8283000" />
+    </children>
+  </item>
+  <item nodeId="node-0x8283000">
+    <command xml:space="preserve">take painting</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3be0">
+    <command xml:space="preserve">talk to boy</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e8470" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e8470">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x6807220" />
+    </children>
+  </item>
+  <item nodeId="node-0x6807220">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can see the window is cracked in the corner. The window oversees the backyard of the house. Nothing really interesting to look at. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e6a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e6a30">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9ec130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9ec130">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A wooden dresser that seems to be made of oak.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x680f820" />
+    </children>
+  </item>
+  <item nodeId="node-0x680f820">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the dresser, revealing a photo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e8300" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e8300">
+    <command xml:space="preserve">take photograph</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e4740" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e4740">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Yellow Key
+  a Frog Leg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x288fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x288fe0">
+    <command xml:space="preserve">x photograph</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8292be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8292be0">
+    <command xml:space="preserve">x photo</command>
+    <result xml:space="preserve">In the photograph, you can see what appears to be the blurred figure of the current owner of the house, yelling at some kids on her yard...Who took this?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9ebea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9ebea0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa92d1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa92d1b0">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x343240" />
+    </children>
+  </item>
+  <item nodeId="node-0x343240">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">A bed with a floral pattern on the bedspread. It seems very comfy to sleep on. Its neatly made, and looks like someone has slept here recently...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8280180" />
+    </children>
+  </item>
+  <item nodeId="node-0x8280180">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">A flat and wooden desk. You can see a stack of papers on one side of the desk, but there is one paper centered in the middle of the desk that looks like someone has been reading it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8281d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x8281d30">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">It looks like a letter which was written by one of the neighbors. Its addressed to a &quot;Mary Bradbury&quot;. The letter is a complaint from a neighbor, saying how she didn&apos;t like Ms. Bradbury&apos;s methods with dealing with children. The letter goes on about how the neighbor might have to call the police if behavior like this continues.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4030f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4030f0">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">You hear a cackle echo throughout the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8299250" />
+    </children>
+  </item>
+  <item nodeId="node-0x8299250">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a paper
+  a Yellow Key
+  a Frog Leg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x33fae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x33fae0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8296b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x8296b90">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x340270" />
+    </children>
+  </item>
+  <item nodeId="node-0x340270">
+    <command xml:space="preserve">x floor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8261b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x8261b90">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ab300" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ab300">
+    <command xml:space="preserve">x windows</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f76a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f76a0">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x827aa50" />
+    </children>
+  </item>
+  <item nodeId="node-0x827aa50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x41be20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41be20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa98fe30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa98fe30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x827f9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x827f9a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Cauldron Room
+As you enter the room, you can feel an essence of magic in the air. The rooms is relatively plain, with the main focus being a big black cauldron in the center of the room. There is a table in the corner of the room. The end of the hallway is to the east. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x828b590" />
+    </children>
+  </item>
+  <item nodeId="node-0x828b590">
+    <command xml:space="preserve">x cauldron</command>
+    <result xml:space="preserve">A big black cauldron that appears to be fixed to the floor. It looks like you could combine ingredients in here. Its filled halfway with a mysterious liquid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x829ac90" />
+    </children>
+  </item>
+  <item nodeId="node-0x829ac90">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">An ordinary, wooden table. It sits in the corner of the room. What looks like a potion book is on the table.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x829c6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x829c6a0">
+    <command xml:space="preserve">read potion book</command>
+    <result xml:space="preserve">A heavy book that has three bookmarked pages. The Green Potion: Whoever consumes this potion will have their nerves-eased and will feel well again. The Blue Potion: This allows an object or a person to be transformed into their original state, if they have been transformed beforehand. The Red Potion: A peculiar potion which allows the consumer to decrypt hidden messages that might have given them trouble without any aid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8281a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x8281a90">
+    <command xml:space="preserve">read green potion</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8290320" />
+    </children>
+  </item>
+  <item nodeId="node-0x8290320">
+    <command xml:space="preserve">x green potion</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82bee10" />
+    </children>
+  </item>
+  <item nodeId="node-0x82bee10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9a0600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9a0600">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8271da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8271da0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa95bca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa95bca0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82a2d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x82a2d60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82a7a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x82a7a00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x828fbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x828fbc0">
+    <command xml:space="preserve">x books</command>
+    <result xml:space="preserve">Hundreds of books are stocked on the shelves. Topics range from &quot;The Study of Werewolves&quot;, to &quot;The Tale of Count Dracula&quot;. Other than the content, the books don&apos;t seem too special.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82c4e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x82c4e60">
+    <command xml:space="preserve">read blue book</command>
+    <result xml:space="preserve">This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, &quot;Sec~~t ~o~m in t~e b~dr~~m...&quot; Thats all you can make out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82bdf90" />
+    </children>
+  </item>
+  <item nodeId="node-0x82bdf90">
+    <command xml:space="preserve">take book</command>
+    <result xml:space="preserve">Which do you mean, the blue book or the unreadable red book?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x826e480" />
+    </children>
+  </item>
+  <item nodeId="node-0x826e480">
+    <command xml:space="preserve">blue book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9d5a00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9d5a00">
+    <command xml:space="preserve">x unreadable red book</command>
+    <result xml:space="preserve">You open the red book and try to read the words, but for some reason, the words are all distorted. No matter what you did, the words never made sense to you. You close the book, it was beginning to give you a headache.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x22e9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x22e9e0">
+    <command xml:space="preserve">take red book</command>
+    <result xml:space="preserve">We should leave this here, its best not to lug a heavy book like this around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82c10a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82c10a0">
+    <command xml:space="preserve">x carpet</command>
+    <result xml:space="preserve">A long blood-red carpet thats stretches from the door to the window. Although you don&apos;t agree with the color, its still a nice carpet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ad6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ad6c0">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You take a look outside, but you can&apos;t see much. You can make out a tree and the hedges, but thats it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c7740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c7740">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x826c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x826c0c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa98e710" />
+    </children>
+  </item>
+  <item nodeId="node-0xa98e710">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a blue book
+  a paper
+  a Yellow Key
+  a Frog Leg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8283e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x8283e80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x32c6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x32c6a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e4990" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e4990">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e2140" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e2140">
+    <command xml:space="preserve">unlock trunk</command>
+    <result xml:space="preserve">What do you want to unlock the Trunk with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x821d650" />
+    </children>
+  </item>
+  <item nodeId="node-0x821d650">
+    <command xml:space="preserve">unlock trunk with yellow key</command>
+    <result xml:space="preserve">You unlock the Trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d0f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d0f90">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">You open the Trunk, revealing a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82daa70" />
+    </children>
+  </item>
+  <item nodeId="node-0x82daa70">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d88b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d88b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa936280" />
+    </children>
+  </item>
+  <item nodeId="node-0xa936280">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ec7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ec7e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e1550" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e1550">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82fba50" />
+    </children>
+  </item>
+  <item nodeId="node-0x82fba50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf24ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf24ed0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d3720" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d3720">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e5190" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e5190">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa901a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa901a80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c3a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c3a80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d44f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d44f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Yard
+A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c9a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c9a20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e3630" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e3630">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x821aea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x821aea0">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You click the flashlight on
+Family Room
+The room is dim, even with the flashlight on. You can&apos;t see much. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ca6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ca6a0">
+    <command xml:space="preserve">x lamp</command>
+    <result xml:space="preserve">An old lamp. It has a bunch of dust on top, along with several cobwebs on the inside. Its plugged into the wall, so it might still work.
+
+The lamp is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa914610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa914610">
+    <command xml:space="preserve">turn on lamp</command>
+    <result xml:space="preserve">Clicking on the switch, the room lights up even more. Something gleams in the corner of the room. It looks like a miniature unicorn horn. Might as well, right? You take the horn. The lamp sputters out all of a sudden. You click the light on and off, but nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8203820" />
+    </children>
+  </item>
+  <item nodeId="node-0x8203820">
+    <command xml:space="preserve">x shiny thing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e35a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e35a0">
+    <command xml:space="preserve">take unicorn horn</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa912180" />
+    </children>
+  </item>
+  <item nodeId="node-0xa912180">
+    <command xml:space="preserve">throw flashlight</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa908f50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa908f50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa907ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa907ed0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Yard
+A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f31620" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f31620">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c5430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c5430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f41fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f41fb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82c3350" />
+    </children>
+  </item>
+  <item nodeId="node-0x82c3350">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+The room is dim, even with the flashlight on. You can&apos;t see much. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east.
+
+You can see a flashlight (providing light) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa98a790" />
+    </children>
+  </item>
+  <item nodeId="node-0xa98a790">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ef0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ef0f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82213b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82213b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82bcb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x82bcb50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Yard
+A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f516c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f516c0">
+    <command xml:space="preserve">put horn on horse</command>
+    <result xml:space="preserve">Putting things on the White Horse would achieve nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f59ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f59ee0">
+    <command xml:space="preserve">combine horse with horn</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f456a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f456a0">
+    <command xml:space="preserve">combine horn with horse</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf44cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf44cd0">
+    <command xml:space="preserve">put horn on gnome</command>
+    <result xml:space="preserve">Putting things on the Garden Gnome would achieve nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x4031c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4031c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9da750" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9da750">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf3fa00" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf3fa00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f46fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f46fa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x2b1260" />
+    </children>
+  </item>
+  <item nodeId="node-0x2b1260">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f71c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f71c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Cauldron Room
+As you enter the room, you can feel an essence of magic in the air. The rooms is relatively plain, with the main focus being a big black cauldron in the center of the room. There is a table in the corner of the room. The end of the hallway is to the east. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82afc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x82afc20">
+    <command xml:space="preserve">combine horn with frog let</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa91b150" />
+    </children>
+  </item>
+  <item nodeId="node-0xa91b150">
+    <command xml:space="preserve">combine horn with frog leg</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8202150" />
+    </children>
+  </item>
+  <item nodeId="node-0x8202150">
+    <command xml:space="preserve">put horn it pot</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d78f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d78f0">
+    <command xml:space="preserve">put horn in cauldron</command>
+    <result xml:space="preserve">That can&apos;t contain things.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8216c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x8216c20">
+    <command xml:space="preserve">x cauldron</command>
+    <result xml:space="preserve">A big black cauldron that appears to be fixed to the floor. It looks like you could combine ingredients in here. Its filled halfway with a mysterious liquid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f6a4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f6a4c0">
+    <command xml:space="preserve">put frog leg in cauldron</command>
+    <result xml:space="preserve">That can&apos;t contain things.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f3c4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f3c4e0">
+    <command xml:space="preserve">combine frog leg with cauldron</command>
+    <result xml:space="preserve">You can&apos;t combine this with the cauldron. Perhaps try combining it with the liquid inside?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82c9720" />
+    </children>
+  </item>
+  <item nodeId="node-0x82c9720">
+    <command xml:space="preserve">combine frog leg wit liquid inside cauldron</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f2e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f2e90">
+    <command xml:space="preserve">combine frog leg with mysterious liquid</command>
+    <result xml:space="preserve">You plop the Frog Leg into the liquid with a splash. The new brew turns green, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d0220" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d0220">
+    <command xml:space="preserve">combine unicorn horn with mysterious liquid</command>
+    <result xml:space="preserve">You plop the Unicorn Horn into the liquid with a splash. The new brew turns red, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f57d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f57d70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f6d940" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f6d940">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f77fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f77fa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf361f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf361f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa919960" />
+    </children>
+  </item>
+  <item nodeId="node-0xa919960">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f54eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f54eb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f70720" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f70720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f44fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f44fb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf781a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf781a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf71520" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf71520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82de910" />
+    </children>
+  </item>
+  <item nodeId="node-0x82de910">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f33650" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f33650">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf92510" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf92510">
+    <command xml:space="preserve">combine potion with boy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f63840" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f63840">
+    <command xml:space="preserve">give green potion to boy</command>
+    <result xml:space="preserve">The boy drinks the potion. He closes his eyes, and takes a big breath. When he opens his eyes again, he seems very relaxed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f3bb60" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f3bb60">
+    <command xml:space="preserve">talk to boy</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf60470" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf60470">
+    <command xml:space="preserve">take boy</command>
+    <result xml:space="preserve">I don&apos;t suppose the boy would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf7f0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf7f0f0">
+    <command xml:space="preserve">poke boy</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f10e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f10e0">
+    <command xml:space="preserve">hit boy</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f2260" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f2260">
+    <command xml:space="preserve">destroy boy</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f741a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f741a0">
+    <command xml:space="preserve">x boy</command>
+    <result xml:space="preserve">A boy not much older than you. He is dressed as Batman, and is standing to the side of the hallway wall. He looks calm. Maybe he might know something about the house. You ask him how he got here. His eyes got big and said that, just like you, he had walked in the front yard, when the gate shut behind him. He came inside the house, but got too scared to go any further.
+Right before you are about to go, he says I should check the piano if I hadn&apos;t already. It looked suspicious to him.
+ Try examining him multiple times.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf7ed30" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf7ed30">
+    <command xml:space="preserve">x boy</command>
+    <result xml:space="preserve">A boy not much older than you. He is dressed as Batman, and is standing to the side of the hallway wall. He looks calm. Maybe he might know something about the house. You ask him about the house. He admits that he doesn&apos;t know much about it, other than its really scary. He said he lives several blocks down.
+Right before you are about to go, he says to make sure that you examine everything around the house, anything could be a clue.
+ Try examining him multiple times.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f72e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f72e00">
+    <command xml:space="preserve">x boy</command>
+    <result xml:space="preserve">A boy not much older than you. He is dressed as Batman, and is standing to the side of the hallway wall. He looks calm. Maybe he might know something about the house. You ask him about his costume. He smiles and says that he has always admired Batman.
+Right before you are about to go, he says I should check the piano if I hadn&apos;t already. It looked suspicious to him.
+ Try examining him multiple times.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f70400" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f70400">
+    <command xml:space="preserve">x boy</command>
+    <result xml:space="preserve">A boy not much older than you. He is dressed as Batman, and is standing to the side of the hallway wall. He looks calm. Maybe he might know something about the house. You ask him how he got here. His eyes got big and said that, just like you, he had walked in the front yard, when the gate shut behind him. He came inside the house, but got too scared to go any further.
+Right before you are about to go, he says to make sure that you examine everything around the house, anything could be a clue.
+ Try examining him multiple times.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82ceeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82ceeb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8272130" />
+    </children>
+  </item>
+  <item nodeId="node-0x8272130">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Red Potion
+  a blue book
+  a paper
+  a Yellow Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f40870" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f40870">
+    <command xml:space="preserve">drink red potion</command>
+    <result xml:space="preserve">You down the potion. It tastes surprisingly pleasant.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fbac30" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fbac30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x820e560" />
+    </children>
+  </item>
+  <item nodeId="node-0x820e560">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82cdaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82cdaf0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a blue book
+  a paper
+  a Yellow Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f35bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f35bf0">
+    <command xml:space="preserve">read blue book</command>
+    <result xml:space="preserve">This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, &quot;Sec~~t ~o~m in t~e b~dr~~m...&quot; Thats all you can make out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf9b080" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf9b080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8211430" />
+    </children>
+  </item>
+  <item nodeId="node-0x8211430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fdda00" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fdda00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f8ee20" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f8ee20">
+    <command xml:space="preserve">x floor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f8f380" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f8f380">
+    <command xml:space="preserve">look for breeze</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fb62c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fb62c0">
+    <command xml:space="preserve">x breeeze</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf7d880" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf7d880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f9f640" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f9f640">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fd52b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fd52b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf3c1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf3c1d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fc3e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fc3e70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf9fbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf9fbc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf73f50" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf73f50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafbc750" />
+    </children>
+  </item>
+  <item nodeId="node-0xafbc750">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fb7e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fb7e30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafb3de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xafb3de0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8fd4a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x8fd4a50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Library
+Upon entering the library, you are immediately amazed. Shelves line the walls, and hundreds of thick books seemed to be packed within the spaces. There is a blue book on the ground, near the window on the east side of the room. There is also a red book sticking out in one of the shelves. There is a long carpet in the room, leading from the doorway to the window. The main room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x820a7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x820a7c0">
+    <command xml:space="preserve">read red book</command>
+    <result xml:space="preserve">You stare at the letters, but this time, they re-arrange themselves into English, allowing you to read them. You notice a bookmarked page. It says, &quot;To open the door, its a quick simple task. However, for this, you wont need no flask. Just one word, nothing too scary. The secret word is Aperi.&quot; 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca246b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xca246b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca284c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xca284c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf9efc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf9efc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82bb220" />
+    </children>
+  </item>
+  <item nodeId="node-0x82bb220">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafc41f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xafc41f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. You feel an unnatural breeze...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca9fa00" />
+    </children>
+  </item>
+  <item nodeId="node-0xca9fa00">
+    <command xml:space="preserve">aperi</command>
+    <result xml:space="preserve">You hear a groaning sound to the south, and look to see the south wall of the bedroom open up. You would never have guessed this was here!
+The secret door is gaping open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82bff80" />
+    </children>
+  </item>
+  <item nodeId="node-0x82bff80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Secret Door)
+
+Secret Room
+An eerie silence falls upon you as you enter this cold room. Its cramped with a single table in the center of the room, with a diary on top. This room freaks you out...
+
+You can see a Secret Door and a Rat Tail here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82cd690" />
+    </children>
+  </item>
+  <item nodeId="node-0x82cd690">
+    <command xml:space="preserve">take rat tail</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafdbb00" />
+    </children>
+  </item>
+  <item nodeId="node-0xafdbb00">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">A three-legged table centered in the middle of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82d5a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x82d5a40">
+    <command xml:space="preserve">read diary</command>
+    <result xml:space="preserve">You flip through the diary, it has entries all made by the same person, Mary Bradbury. You notice some of the recent entries. She talks about scaring away kids from her property, and how its enjoyable to cause trouble with a little magic. She also mentions turning a kid into a plastic horse because she knew the certain word to unlock her iron gate. You close the book, you felt dizzy from all the reading. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9ee2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9ee2b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. 
+
+You can see a Secret Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafb7c50" />
+    </children>
+  </item>
+  <item nodeId="node-0xafb7c50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xafb4080" />
+    </children>
+  </item>
+  <item nodeId="node-0xafb4080">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf61d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf61d90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Cauldron Room
+As you enter the room, you can feel an essence of magic in the air. The rooms is relatively plain, with the main focus being a big black cauldron in the center of the room. There is a table in the corner of the room. The end of the hallway is to the east. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcaac220" />
+    </children>
+  </item>
+  <item nodeId="node-0xcaac220">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">(the blue book)
+This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, &quot;Sec~~t ~o~m in t~e b~dr~~m...&quot; Thats all you can make out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcacb450" />
+    </children>
+  </item>
+  <item nodeId="node-0xcacb450">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cauldron Room
+As you enter the room, you can feel an essence of magic in the air. The rooms is relatively plain, with the main focus being a big black cauldron in the center of the room. There is a table in the corner of the room. The end of the hallway is to the east. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcac7770" />
+    </children>
+  </item>
+  <item nodeId="node-0xcac7770">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">An ordinary, wooden table. It sits in the corner of the room. What looks like a potion book is on the table.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf86bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf86bd0">
+    <command xml:space="preserve">x book</command>
+    <result xml:space="preserve">(the blue book)
+This book has the house history. It says that the original house was made during the times of the Witch Trials, but it has been taken down and remodeled several times. The book also says the house has been always passed down to the child of the house. Curiously, every owner of the house was a woman. Something has been scrawled out on one of the pages, but you can make sense of a couple letters, &quot;Sec~~t ~o~m in t~e b~dr~~m...&quot; Thats all you can make out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca7ae20" />
+    </children>
+  </item>
+  <item nodeId="node-0xca7ae20">
+    <command xml:space="preserve">read potion book</command>
+    <result xml:space="preserve">A heavy book that has three bookmarked pages. The Green Potion: Whoever consumes this potion will have their nerves-eased and will feel well again. The Blue Potion: This allows an object or a person to be transformed into their original state, if they have been transformed beforehand. The Red Potion: A peculiar potion which allows the consumer to decrypt hidden messages that might have given them trouble without any aid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca52e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xca52e50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcae3490" />
+    </children>
+  </item>
+  <item nodeId="node-0xcae3490">
+    <command xml:space="preserve">combine rat tail with liquid</command>
+    <result xml:space="preserve">You plop the Rat Tail into the liquid with a splash. The new brew turns blue, and begins to bubble and churn. A vile hiding behind the cauldron catches your eye. You take it and bottle the new potion. The liquid churning subsides and the liquid is back to its pink state.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c7c60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c7c60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca7f750" />
+    </children>
+  </item>
+  <item nodeId="node-0xca7f750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa91c740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa91c740">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf7a030" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf7a030">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca35900" />
+    </children>
+  </item>
+  <item nodeId="node-0xca35900">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Yard
+A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca7dd80" />
+    </children>
+  </item>
+  <item nodeId="node-0xca7dd80">
+    <command xml:space="preserve">use potion on horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca4ddb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xca4ddb0">
+    <command xml:space="preserve">dump potion on horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcaf60f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcaf60f0">
+    <command xml:space="preserve">empty potion on horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca51ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xca51ba0">
+    <command xml:space="preserve">horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xca6ebb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xca6ebb0">
+    <command xml:space="preserve">horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xcaf6270" />
+    </children>
+  </item>
+  <item nodeId="node-0xcaf6270">
+    <command xml:space="preserve">where is the horse</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf8da80" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf8da80">
+    <command xml:space="preserve">what is a verb</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa917c70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa917c70">
+    <command xml:space="preserve">give potion to horse</command>
+    <result xml:space="preserve">
+
+    *** You pour the potion over the horse, and before your very eyes, the plastic horse transforms into a girl about your age! You call for the boy inside, who bursts out of the front door in seconds. The girl closes her eyes and mutters a phrase under he breath, and the iron gate swings open. The three of you sprint out of the gate and into the street. Panting, you look up to find that both the boy and the girl had disappeared...strange, you were going to thank them. You run back to your parents, they must be worried sick about you! You arrive, and to your surprise, nothing much has changed, as if only a couple seconds had passed by. You were about to tell your parents about the house, when you turned around, and it wasn&apos;t there. An empty lot with a lonesome tree in it stood in its place. You thought you heard a cackle in the distance. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f4180" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f4180">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Front Yard
+[Previous turn undone.]
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <temporary score="1446">YES</temporary>
     <children>
-      <child nodeId="node-0x6864020" />
+      <child nodeId="node-0xdf23270" />
     </children>
+  </item>
+  <item nodeId="node-0xdf23270">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e1bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e1bf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9530d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9530d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8207e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x8207e10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You peer into the room to find it empty. The bedroom isn&apos;t dusty in the least, its almost as if someone has been here quite recently actually...There is a trunk in the northwest corner of the room, along with a bed on the east wall. A desk is in the southwest corner. The extended hallway is to the west. 
+
+You can see a Secret Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf630b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf630b0">
+    <command xml:space="preserve">x breeze</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82245d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82245d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Extended Long Hallway
+This part of the house seems to be in better shape than the rest of it. There is a window on the north wall, and a dresser below it. The cauldron room is to the west, and the bedroom is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x681a970" />
+    </children>
+  </item>
+  <item nodeId="node-0x681a970">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Long Hallway
+The room is dank, and it doesn&apos;t smell too good here either. There is armor for a knight, modeled on the left side of the hallway. There is a painting hanging on the right wall here. There is a boy here huddled on the side of the hallway. The stairs are to the south, and the hallway continues to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf3af40" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf3af40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Room
+Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren&apos;t certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8206de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8206de0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Yard
+A large front yard surrounded by 10 foot tall hedges. An iron gate is locked behind you, leading towards the road. There is a walkway leading up to the house. There is a white horse here, and a garden gnome. The house is to the north and the road is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf63010" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf63010">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Iron Gate)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82e2290" />
+    </children>
+  </item>
+  <item nodeId="node-0x82e2290">
+    <command xml:space="preserve">x blue potion</command>
+    <result xml:space="preserve">A blue potion in a small vile. Its best not to open it right now. You could probably give this potion to someone/something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x826dd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x826dd60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Blue Potion
+  a blue book
+  a paper
+  a Yellow Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x82b60b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82b60b0">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">It looks like a letter which was written by one of the neighbors. Its addressed to a &quot;Mary Bradbury&quot;. The letter is a complaint from a neighbor, saying how she didn&apos;t like Ms. Bradbury&apos;s methods with dealing with children. The letter goes on about how the neighbor might have to call the police if behavior like this continues.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9d20d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9d20d0">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">A key that had been hidden in the piano. It should be able to unlock something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x8297170" />
+    </children>
+  </item>
+  <item nodeId="node-0x8297170">
+    <command xml:space="preserve">x blue bok</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1446">YES</temporary>
+    <children>
+      <child nodeId="node-0x681d330" />
+    </children>
+  </item>
+  <item nodeId="node-0x681d330">
+    <command xml:space="preserve">x blue book</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1445">YES</temporary>
   </item>
   <item nodeId="node-0x6864020">
     <command xml:space="preserve">x gnome</command>
