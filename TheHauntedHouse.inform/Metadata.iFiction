@@ -8,16 +8,17 @@
         <bibliographic>
             <title>A Haunted Halloween</title>
             <author>Dylan Vodzak</author>
-            <headline>An Interactive Fiction</headline>
-            <genre>Fiction</genre>
+            <headline>Too Spooky for You[line break]</headline>
+            <genre>Adventure</genre>
             <firstpublished>2014</firstpublished>
+            <description>A young trick-or-treater is trapped inside a haunted house, and has to find a way to escape! What horrors and secrets will he find?</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2014-10-24</releasedate>
+                    <releasedate>2014-10-28</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6L38</compilerversion>
@@ -27,10 +28,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6L38</generatorversion>
-            <originated>2014-10-24</originated>
+            <originated>2014-10-28</originated>
         </colophon>
         <glulx>
-            <serial>141024</serial>
+            <serial>141028</serial>
             <release>1</release>
             <compiler>Inform 7 build 6L38</compiler>
         </glulx>

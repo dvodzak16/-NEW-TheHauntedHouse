@@ -22,7 +22,7 @@ placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2014"
 placeholder [TITLE] = "A Haunted Halloween"
 placeholder [AUTHOR] = "Dylan Vodzak"
-placeholder [BLURB] = "A work of interactive fiction."
+placeholder [BLURB] = "A young trick-or-treater is trapped inside a haunted house, and has to find a way to escape! What horrors and secrets will he find?"
 
 ! Other material to release
 

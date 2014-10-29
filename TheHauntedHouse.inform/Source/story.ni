@@ -1,6 +1,12 @@
 "A Haunted Halloween" by Dylan Vodzak
 
-[To do: Blue Potion]
+The release number is 1.
+The story creation year is 2014.
+The story headline is "Too Spooky for You[line break]".
+The story genre is "Adventure".
+The story description is "A young trick-or-treater is trapped inside a haunted house, and has to find a way to escape! What horrors and secrets will he find?" 
+
+[All "Instead" commands are source by the inform handbook]
 
 When play begins: say "Its Halloween, and you're out trick-or-treating with your parents. Its almost midnight, and you have arrived at this spooky-looking house. You look for your parents, but they seem to have run into a friend. You'll only take a second. You open the large iron gate and enter the front yard, and as you enter, the gate slams behind you! Trapped, your parents can't seem to hear you; you have to find a way out!"
 
@@ -25,7 +31,8 @@ Instead of looking under the Garden Gnome when the Frog Leg is lost:
 Instead of eating the Frog Leg:
 	say "That is a terrible idea, who knows where else this leg has been?"
 
-[OBJECTS THAT WILL BE COMBINED]
+[OBJECTS THAT WILL BE COMBINED
+"Combined" code courtesy of Riley, who had it implemented in his first game]
 
 The Cauldron is in the Cauldron Room. The Cauldron is a thing. The cauldron is fixed in place. The Cauldron is undescribed. The description is "A big black cauldron that appears to be fixed to the floor. It looks like you could [bold type]combine [Roman type]ingredients in here. Its filled halfway with a mysterious liquid."
 
@@ -101,6 +108,8 @@ The Road is a room. It is south of the Iron Gate.
 
 [THE MAIN ROOM]
 
+The small key is a thing. It unlocks the window. The small key is undescribed. The small key is in the main room. The description is "A small key that was inside one of the plants."
+
 The Main Room is a room. It is north of the Front Yard. The description is "Upon entering, you can clearly see that this is the biggest room in the house. The house itself has a cliche haunted house look, but you aren't certain if its for show or for real...A chandelier hangs delicately from the ceiling, giving the room eerie light. There is a piano in the corner. There are two potted plants on either sides of the stairs. There are stairs to the north. The Family Room is to the west. The Library is to the east."
 
 The chandelier is a thing. The chandelier is undescribed. The chandelier is in the Main Room. The chandelier is fixed in place. The description is "Its covered in dust and cobwebs, plus it doesn't give off a whole bunch of light. Does anyone even live here?"
@@ -108,11 +117,13 @@ The chandelier is a thing. The chandelier is undescribed. The chandelier is in t
 The potted plant on the right is a thing. It is in the main room. The potted plant on the right is undescribed. The potted plant on the right is fixed in place. The description is "A potted plant to the right of the stairs that seems unusually healthy compared to its surroundings."
 
 
-The potted plant on the left is a thing. It is in the main room. The potted plant on the left is undescribed. The potted plant on the left is fixed in place. The description is "A potted plant to the left of the stairs that seems unusually healthy compared to its surroundings."
+The potted plant on the left is a thing. It is in the main room. The potted plant on the left is undescribed. The potted plant on the left is fixed in place. The description is "A potted plant to the left of the stairs that seems unusually healthy compared to its surroundings. You can see a small key at the base of the plant."
 
 The potted plants is a thing. It is in the main room. The potted plants is undescribed. The potted plants is fixed in place. The description is "Which do you mean, the potted plant on the right or the potted plant on the left?"
 
 The piano is a thing. It is in the main room. The piano is undescribed. The piano is fixed in place. The description is "A grand piano that is to the left of the front door. It has a thick coat of dust and doesn't look like it has been played in a while."
+
+[Inform Handbook taught me how to put in "made up" commands]
 
 Playing is an action applying to one thing.
 Understand "play [something]" as playing.
@@ -129,6 +140,8 @@ The Yellow Key is a thing. It unlocks the Trunk. The description is "A key that 
 [FAMILY ROOM]
 
 The Family Room is a dark room. It is west of the Main Room. The description is "The room is dim, even with the flashlight on. You can't see much. There is a lamp in the northwest corner, a chair in the southwest corner, and a TV in the northeast corner. A rug is in the center of the room, and a painting hangs on the south wall. The main room is to the east."
+
+[The flashlight mechanic allowed me to do this, which I learned from the inform handbook]
 
 The lamp is a device in the Family Room. The lamp is fixed in place. The lamp is undescribed. The description is "An old lamp. It has a bunch of dust on top, along with several cobwebs on the inside. Its plugged into the wall, so it might still work." The lamp is unlit.
 
@@ -174,8 +187,14 @@ Instead of taking the readable red book:
 The long carpet is scenery in the Library. The description is "A long blood-red carpet thats stretches from the door to the window. Although you don't agree with the color, its still a nice carpet."
 
 [Possibly add picture here???]
+The window is east of the Library. The window is a door. It is lockable and locked. It is scenery. It is unlocked by the small key. The description is "You take a look outside, but you can't see much. You can make out a tree and the hedges, but thats it. It looks like you can climb through the window, but it would be a tight squeeze." 
 
-The window is scenery in the Library. The description is "You take a look outside, but you can't see much. You can make out a tree and the hedges, but thats it."
+Instead of unlocking the window with the small key:
+	If the secret door is undescribed, say "You open the window and land in the side yard of the house. You sprint to your parents, they must be worried sick about you! You arrive, and to your surprise, nothing much has changed, as if only a couple seconds had passed by. You were about to tell your parents about the house, when you turned around, and it wasn't there. An empty lot with a lonesome tree in it stood in its place. Wait, the blue potion! Now for sure I can prove it to them! You reach for the potion, and your discover that just like the house, it has disappeared along with the other items you had. As you walk with your parents down the street, you think you hear a cackle somewhere in the distance.";
+		end the story finally.
+		
+Instead of unlocking the window with the small key:
+	If the secret door is described, say "The window doesn't budge. Perhaps you need to be holding a certain item to be able to pass through?";
 
 
 [Long Hallway]
@@ -190,6 +209,8 @@ Instead of taking armor:
 The ominous painting is in the Long Hallway. The ominous painting is fixed in place. The ominous painting is undescribed. The description is "You peer at the painting and notice a dark figure in the middle of the painting. You can't really make out anything else in the painting. As ominous as the painting is, it doesn't seem to be very special."
 
 In the Long Hallway is a man called a boy. A boy is undescribed.   
+
+[Learned moods from inform]
 
 Instead of examining the a boy:
 	If a boy is frightened:
@@ -224,6 +245,8 @@ The photo is a thing in the dresser. The description is "In the photograph, you 
 The Cauldron Room is a room. It is west of the Extended Long Hallway. The description is "As you enter the room, you can feel an essence of magic in the air. The rooms is relatively plain, with the main focus being a big black cauldron in the center of the room. There is a table in the corner of the room. The end of the hallway is to the east. "
 
 The table is a thing in the cauldron room. The table is fixed in place. The table is undescribed. The description is "An ordinary, wooden table. It sits in the corner of the room. What looks like a potion book is on the table."
+
+[I remember seeing this somewhere in Mrs. Kiang's code, but I don't remember from what though]
 
 The potion book is a thing. The potion book is on top of the table. The potion book is fixed in place. The potion book is undescribed. The description is "A heavy book that has three bookmarked pages.
 [bold type]The Green Potion:[roman type] Whoever consumes this potion will have their nerves-eased and will feel well again.
